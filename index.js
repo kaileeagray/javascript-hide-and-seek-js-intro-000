@@ -44,7 +44,7 @@ function deepestChild() {
   var current = document.querySelector('#grand-node').firstElementChild;
   var next = current.firstElementChild;
   while (current) {
-    
+    next = current.firstElementChild;
   }
 
 }
