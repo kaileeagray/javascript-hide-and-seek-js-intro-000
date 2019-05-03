@@ -21,6 +21,7 @@ function increaseRankBy(n) {
     var rankedListsLength = rankedLists.length;
       for (var i = 0; i < rankedListsLength; i++) {
         var list = rankedLists[i].querySelectorAll('li');
+        var listLength = list.length;
       }
     }
 }
