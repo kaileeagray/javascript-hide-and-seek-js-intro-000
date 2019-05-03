@@ -19,16 +19,16 @@ function increaseRankBy(n) {
   var rankedLists = document.querySelectorAll('ul.ranked-list');
   if (rankedLists) {
     var rankedListsLength = rankedLists.length;
-      for (var i = 0; i < rankedListsLength; i++) {
-        var list = rankedLists[i].querySelectorAll('li');
-        var listLength = list.length;
-        for (var j = 0; j < listLength; j++) {
-          var value = list[j].innerHTML;
-          value += n;
-          list[j].innerHTML = value;
-        }
+    for (var i = 0; i < rankedListsLength; i++) {
+      var list = rankedLists[i].querySelectorAll('li');
+      var listLength = list.length;
+      for (var j = 0; j < listLength; j++) {
+        var value = list[j].innerHTML;
+        value += n;
+        list[j].innerHTML = value;
       }
     }
+  }
 }
 
 // Define a function deepestChild() that pulls out the most deeply nested
