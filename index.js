@@ -41,6 +41,6 @@ function increaseRankBy(n) {
 // olve for that case, and not worry about a case where there are sibling nodes.
 
 function deepestChild() {
-  var firstChild = document.querySelector('#grand-node').firstElementChild;
-  
+  var current = document.querySelector('#grand-node').firstElementChild;
+
 }
