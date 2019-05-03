@@ -42,4 +42,5 @@ function increaseRankBy(n) {
 
 function deepestChild() {
   var firstChild = document.querySelector('#grand-node').firstElementChild;
+  
 }
