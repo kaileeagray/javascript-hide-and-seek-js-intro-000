@@ -39,3 +39,8 @@ function increaseRankBy(n) {
 // we don't expect it to work in every case. For example, we know that
 // div#grand-node has only one node at each level — for this lab, you can s
 // olve for that case, and not worry about a case where there are sibling nodes.
+
+function deepen
+() {
+  
+}
