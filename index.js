@@ -41,5 +41,5 @@ function increaseRankBy(n) {
 // olve for that case, and not worry about a case where there are sibling nodes.
 
 function deepestChild() {
-
+  
 }
