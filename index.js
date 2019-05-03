@@ -18,6 +18,7 @@ function nestedTarget() {
 function increaseRankBy(n) {
   var rankedLists = document.querySelectorAll('ul.ranked-list');
   var rankedListsLength = rankedLists.length;
+  
 }
 
 // Define a function deepestChild() that pulls out the most deeply nested
