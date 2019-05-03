@@ -24,6 +24,7 @@ function increaseRankBy(n) {
         var listLength = list.length;
         for (var j = 0; j < listLength; j++) {
           var value = list[j].textContent;
+          value += n;
         }
       }
     }
