@@ -17,6 +17,7 @@ function nestedTarget() {
 // .ranked-lists by n. (You might need to make use of parseInt()
 function increaseRankBy(n) {
   var rankedLists = document.querySelectorAll('ul.ranked-list');
+  
 }
 
 // Define a function deepestChild() that pulls out the most deeply nested
