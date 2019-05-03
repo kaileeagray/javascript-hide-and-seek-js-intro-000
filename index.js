@@ -47,5 +47,6 @@ function deepestChild() {
     next = current.firstElementChild;
     current = next;
   }
+  return current;
 
 }
