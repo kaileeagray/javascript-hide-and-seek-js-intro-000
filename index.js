@@ -26,7 +26,6 @@ function increaseRankBy(n) {
           var value = list[j].innerHTML;
           value += n;
           list[j].innerHTML = value;
-
         }
       }
     }
