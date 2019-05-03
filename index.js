@@ -42,5 +42,5 @@ function increaseRankBy(n) {
 
 function deepen
 () {
-  
+
 }
