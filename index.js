@@ -10,7 +10,7 @@ function getFirstSelector(selector) {
 // docs, right? :) ). (Note that in index.html #nested and .target just happen
 // to be divs. This method should work with arbitrary elements.)
 function nestedTarget() {
-  document.querySelector('#nested .target');
+  return document.querySelector('#nested .target');
 }
 
 // Define a function increaseRankBy(n) that increases the ranks in all of the
