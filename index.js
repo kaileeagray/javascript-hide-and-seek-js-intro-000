@@ -24,7 +24,7 @@ function increaseRankBy(n) {
       var listLength = list.length;
       for (var j = 0; j < listLength; j++) {
         var value = parseInt(list[j].innerHTML);
-        value += n;
+        value += parseInt(n);
         list[j].innerHTML = value;
       }
     }
