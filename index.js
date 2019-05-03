@@ -20,7 +20,7 @@ function increaseRankBy(n) {
   if (rankedLists) {
     var rankedListsLength = rankedLists.length;
       for (var i = 0; i < rankedListsLength; i++) {
-        
+        rankedLists[i]
       }
     }
 }
