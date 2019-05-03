@@ -23,8 +23,9 @@ function increaseRankBy(n) {
         var list = rankedLists[i].querySelectorAll('li');
         var listLength = list.length;
         for (var j = 0; j < listLength; j++) {
-          var value = list[j].textContent;
+          var value = list[j].innerHTML;
           value += n;
+
         }
       }
     }
