@@ -45,6 +45,7 @@ function deepestChild() {
   var next = current.firstElementChild;
   while (current) {
     current = next.firstElementChild;
+    next = current;
   }
 
 }
